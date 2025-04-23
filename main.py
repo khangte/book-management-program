@@ -22,3 +22,4 @@ if __name__ == "__main__":
     Button(root, text="대여 현황", width=20, command=r_mod.display_rent).pack(pady=10)
 
     root.mainloop()
+    

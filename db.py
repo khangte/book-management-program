@@ -8,9 +8,9 @@ import pymssql
 def get_connection():
     """Return a new pymssql Connection to the BookDB."""
     return pymssql.connect(
-        server='localhost',
+        server='127.0.0.1',
         database='BookDB',
-        user='SQLMaster',
-        password='',
+        user='kmh-tester1',
+        password='1234',
         charset='utf8'
     )
